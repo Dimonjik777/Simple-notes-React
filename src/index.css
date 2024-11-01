@@ -42,12 +42,18 @@ p{
 .note__top{
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
 }
 
 .title{
   margin: 0;
   font-size: 36px;
-  margin-right: auto;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  flex: 1;
+  width: 100px;
 }
 
 .note button{
@@ -62,6 +68,7 @@ p{
 .note__edit{
   background-color: #76C6FF;
   margin-right: 15px;
+  margin-left: auto;
 }
 
 .note__edit:hover{
@@ -103,13 +110,8 @@ p{
   height: 100vh;
   top: 0;
   left: 0;
-  opacity: 0;
   pointer-events: none;
-}
-
-.create__note.active{
-  opacity: 1;
-  pointer-events: all;
+  transition: 0.3s ease all;
 }
 
 .modal__create__note{
@@ -126,6 +128,9 @@ p{
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+  transition: 0.3s ease all;
+  opacity: 0;
+  transform:translateY(10px);
 }
 
 .title__note{
@@ -134,6 +139,20 @@ p{
   border: none;
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   font-size: 24px;
+}
+
+
+.create__note.active{
+  pointer-events: all;
+}
+
+.create__note.active .modal__create__note{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.create__note.active .modal__bg{
+  opacity: 1;
 }
 
 .text__note{
@@ -187,4 +206,6 @@ p{
   position: absolute;
   left: 0;
   top: 0;
+  opacity: 0;
+  transition: .3s ease all;
 }
