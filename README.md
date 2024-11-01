@@ -1,7 +1,8 @@
 # Notes App
 This is a simple Notes application built using React. The project was created for educational purposes to practice and enhance my skills in React development. It allows users to create, edit, and delete notes, with data persistence using the browser's local storage.
 
-Features
+# Features
+
 Create Notes: Users can add new notes with a title and description.
 Edit Notes: Existing notes can be modified, allowing users to update the content.
 Delete Notes: Users can remove notes from the list.
