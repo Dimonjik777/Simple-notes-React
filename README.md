@@ -3,14 +3,15 @@ This is a simple Notes application built using React. The project was created fo
 
 # Features
 
-Create Notes: Users can add new notes with a title and description.
-Edit Notes: Existing notes can be modified, allowing users to update the content.
-Delete Notes: Users can remove notes from the list.
-Local Storage: Notes are saved in the browser's local storage, ensuring data persistence even after refreshing the page.
-Technologies Used
-React: A JavaScript library for building user interfaces.
-JavaScript: The programming language used for application logic.
-CSS: For styling the application.
+- Create Notes: Users can add new notes with a title and description.
+- Edit Notes: Existing notes can be modified, allowing users to update the content.
+- Delete Notes: Users can remove notes from the list.
+- Local Storage: Notes are saved in the browser's local storage, ensuring data persistence even after refreshing the page.
+- 
+# Technologies Used
+- React: A JavaScript library for building user interfaces.
+- JavaScript: The programming language used for application logic.
+- CSS: For styling the application.
 
 # Usage
 1. To create a new note, click the "+" button to open the modal.
