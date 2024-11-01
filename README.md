@@ -7,7 +7,7 @@ This is a simple Notes application built using React. The project was created fo
 - Edit Notes: Existing notes can be modified, allowing users to update the content.
 - Delete Notes: Users can remove notes from the list.
 - Local Storage: Notes are saved in the browser's local storage, ensuring data persistence even after refreshing the page.
-- 
+
 # Technologies Used
 - React: A JavaScript library for building user interfaces.
 - JavaScript: The programming language used for application logic.
